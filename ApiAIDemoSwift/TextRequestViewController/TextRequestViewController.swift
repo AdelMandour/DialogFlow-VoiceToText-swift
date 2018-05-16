@@ -14,7 +14,7 @@ class TextRequestViewController: UIViewController, SFSpeechRecognizerDelegate {
     private var speechRecognizer: SFSpeechRecognizer!
     override func viewDidLoad() {
         super.viewDidLoad()
-        speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "ar-EG"))  //1
+        speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "en-US"))  //1
         microphoneButton.isEnabled = false  //2ƒ
         speechRecognizer?.delegate = self  //3
             SFSpeechRecognizer.requestAuthorization { (authStatus) in  //4
