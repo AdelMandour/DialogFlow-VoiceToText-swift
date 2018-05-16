@@ -1,0 +1,25 @@
+PODS:
+  - ApiAI/Core (0.7.2)
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - ApiAI/Core
+  - ApiAI/ResponseMapping
+  - ApiAI/UIKit
+  - ApiAI/VoiceRequest
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 7691a1fd3d16fc505ca8483f4e1dba7d2f46d48c
+
+COCOAPODS: 1.4.0
